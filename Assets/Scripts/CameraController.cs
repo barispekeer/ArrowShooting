@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    float xMouse, yMouse;
+    
     void Update()
     {
-        
+        xMouse = Input.GetAxis("Mouse X");
+        yMouse = Input.GetAxis("Mouse Y");
+        transform.Rotate(-yMouse, 0, 0);
+        transform.Rotate(0, xMouse, 0, Space.World);
     }
 }
