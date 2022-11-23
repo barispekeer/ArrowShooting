@@ -5,14 +5,4 @@ using UnityEngine;
 public class ScoreController : MonoBehaviour
 {
     public int score;
-    void Start()
-    {
-        
-    }
-
-    
-    void Update()
-    {
-        
-    }
 }

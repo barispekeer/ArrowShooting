@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6155055612773762758
 Transform:
   m_ObjectHideFlags: 0
@@ -140,7 +140,6 @@ GameObject:
   - component: {fileID: 2159814492295920307}
   - component: {fileID: 2159814492295920316}
   - component: {fileID: 1577392914586656606}
-  - component: {fileID: 2676456209948476797}
   - component: {fileID: 5474007966866185634}
   - component: {fileID: 336671216888328630}
   m_Layer: 31
@@ -234,20 +233,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!136 &2676456209948476797
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2159814492295920317}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  m_Radius: 0.14
-  m_Height: 0.8
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0.4}
 --- !u!65 &5474007966866185634
 BoxCollider:
   m_ObjectHideFlags: 0
